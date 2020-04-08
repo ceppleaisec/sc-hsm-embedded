@@ -1,0 +1,9 @@
+processAPDU
+selectHSM
+initializeDevice
+queryPIN
+verifyPIN
+changePIN
+generateSymmetricKey
+writeKeyDescription
+deriveKey

@@ -1,6 +1,7 @@
 MAINTAINERCLEANFILES = $(srcdir)/Makefile.in
 
 lib_LTLIBRARIES = libctccid.la
+include_HEADERS = ctapi.h
 
 AM_CPPFLAGS = -I$(top_srcdir)/src $(LIBUSB_CFLAGS) -pthread
 
